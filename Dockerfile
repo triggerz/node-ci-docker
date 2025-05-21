@@ -1,6 +1,6 @@
 # Install base software
 
-FROM node:18.18-bullseye
+FROM node:22-bullseye
 RUN npm install -g npm@7.24.1
 
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
